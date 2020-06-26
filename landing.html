@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM APP</title>
+    
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--Animate css file-->
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+    <!--FontAwesome css file-->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!--custom css file-->
+    <link rel="stylesheet" href="./css/atmStyle.css">
+
+</head>
+<body >
+    <main id="main" class="container">
+	
+        <section id="welcome" class="flex-col">
+            <h1 class="welcome-text text-center">Welcome to Ifex Bank</h1>
+
+            <div id="welcome-btns" class="flex-col">
+				<div id="wbtn" class="row flex-col container">
+					<button type="submit" class="btn btn-primary shake" value="" onclick="swipe(wbtn,wbtnX)">Insert Card or Name Here</button>
+				</div>
+				
+				<div id="wbtnX" class="row flex-row container">
+					<form action="./pages/index.html" method="POST" id="form2" class="flex flex-col container">
+					<label class="text-center">Please enter your Name and a random password</label>
+						<input type="text" name="username" id="username" placeholder="Username" class="form-control">
+						<input type="submit" value="Submit" class="btn btn-primary form-control shake">
+					</form>
+				</div>
+			</div>
+            
+    
+        </section>
+		
+    </main>
+
+    
+    
+    <!--JQuery js file-->
+    <script src="./js/jquery.min.js"></script>
+
+    <!--Main js-->
+    <script src="./js/main.js"></script>
+
+    <!--Bootstrap js file-->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--FontAwesome js file-->
+    <script src="./js/all.min.js"></script>
+</body>
+</html>
