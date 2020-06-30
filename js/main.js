@@ -1,12 +1,11 @@
  $(document).ready(function() {
-    //$(".col-6:odd").addClass("r");
-	//$(".col-6:even").addClass("l");
+    //$(".col-6:odd").css("z-index", "-1");
+	//$(".col-6:even").css("z-index", "0");
 	//$("#welcome").css("z-index", "1");
   }); 
 
 
 
-  
 
  function swap(sect,nextSect,transaction) {
 	 /* this.sect = sect;

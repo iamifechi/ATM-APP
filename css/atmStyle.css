@@ -31,16 +31,27 @@ btn, button, label,a{
 
 
 
-.col-6.l a{
+.col-md-6.l a,.amt .btns-group .col-6.l a{
     float: left;
-    margin-left:-20px;
+    margin-left:-10%x;
 	background:rebeccapurple
 }
 
-.col-6.r a{
+.col-md-6.r a,.amt .btns-group .col-6.r a{
     float: right;
 	clear:right;
-    margin-right:-20px;
+    margin-right:-10%;
+}
+
+
+
+
+@media (max-width:991px){
+    .col-sm-12.l a,.col-sm-12.r a{
+        float: none;
+        margin: 10px auto;
+        background:rebeccapurple
+    }
 }
 .btn{
 	width:300px;
@@ -143,6 +154,39 @@ h1{
 }
 .btns-group #yes,.btns-group #no{
     margin-top:40vh;
+}
+
+@media(max-width:991px){
+    .btns-group #yes,.btns-group #no{
+        margin-top:10px;
+    }
+
+    .options{
+            width:100%;
+            position: relative;
+            text-align:center;
+            top:1%;
+           
+        }
+        
+    .options .amt{
+        position: absolute;
+        top:40vh;
+    }
+    
+    .btns-group{ 
+            margin:auto;
+        }
+
+   /* .amt .btns-group .col-6.l a{
+       margin-left:-40%
+    }*/
+    
+    .sect-texts{
+        position: relative;
+        top:15px;
+    }
+    
 }
 
 
