@@ -80,6 +80,11 @@ section{
     background: linear-gradient(32deg, rgba(0,8,80,0.9360119047619048) 0%, rgba(9,61,125,1) 9%, rgba(110,46,158,1) 36%, rgba(160,45,159,1) 50%, rgba(120,44,162,1) 64%, rgba(9,61,125,1) 97%, rgba(0,8,81,0.9360119047619048) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000850",endColorstr="#000851",GradientType=1);
 }
+@media (max-width:991px){
+	section{
+		max-width:100%;
+	}
+}
 
 a{
     font-size:1.5em;
