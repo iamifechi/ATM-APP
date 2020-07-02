@@ -1,9 +1,0 @@
-<NotepadPlus>
-    <Session activeView="1">
-        <mainView activeIndex="0" />
-        <subView activeIndex="1">
-            <File firstVisibleLine="36" xOffset="0" scrollWidth="1328" startPos="2607" endPos="2607" selMode="0" lang="HTML" encoding="-1" filename="C:\Users\Favour Nnebedum\Desktop\javascript tests\git\Ifechiworks\ATM\index.html" backupFilePath="" originalFileLastModifTimestamp="1593381026" />
-            <File firstVisibleLine="33" xOffset="0" scrollWidth="1888" startPos="880" endPos="880" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Favour Nnebedum\Desktop\javascript tests\git\Ifechiworks\ATM\css\atmStyle.css" backupFilePath="" originalFileLastModifTimestamp="1593381057" />
-        </subView>
-    </Session>
-</NotepadPlus>
